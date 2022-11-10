@@ -1,0 +1,74 @@
+[
+    {
+        "service_id": 1,
+        "rating": {
+            "number": 4.3,
+            "badge": "Excellent"
+        },
+        "total_view": 877,
+        "service_title": "Consultation",
+        "price": "$177.97",
+        "image_url": "https://i.ibb.co/Lp7r8My/services01.webp",
+        "details": "When you are a new patient at a dentist’s office, the first step is usually to schedule an initial consultation. A consultation is basically an evaluation of the current condition of your teeth. If you haven’t seen a dentist in a while, you may be worried or embarrassed about the current state of your teeth.\n A good dentist won’t be judgmental or make you feel bad about your current dental health. He or she simply wants to help restore your teeth to the best possible condition, improving your health and well-being. But if you’re still feeling a little uncomfortable about that first appointment, it may help to know what to expect. Here’s what happens during a typical new patient dental consultation."
+    },
+    {
+        "service_id": 2,
+        "rating": {
+            "number": 4,
+            "badge": "Excellent"
+        },
+        "total_view": 367,
+        "service_title": "Implant Dentistry",
+        "price": "$34.43",
+        "image_url": "https://i.ibb.co/q9w4Y3b/services06.jpg",
+        "details": "An implant is a replacement of a missing tooth root with a titanium screw, called an implant post. An implant is placed under anesthesia into the jawbone and after 3-to-4 months of implant integration, it is loaded with a ceramic crown and functions as a natural tooth. With implants, one can restore a single tooth, multiple teeth or even all missing teeth.\nPlease note that implant treatment is a two-stage process and requires two visits. The 1st visit for the placement of the implant post(s) needs to last 1-2 working days and is followed by a osseointegration period of 3-4 months, during which the bone bonds with the implant. For the time between 1st & 2nd stage, it is possible to make a temporary crown(s), but this extends the first visit to 3 working days. After 3-4 months of implant integration, a return visit for 4-5 working days is required for the placement of a healing ring(s) and abutment(s) and fabrication and fitting of a ceramic crown(s)."
+    },
+    {
+        "service_id": 3,
+        "rating": {
+            "number": 4.4,
+            "badge": "Excellent"
+        },
+        "total_view": 596,
+        "service_title": "Cosmetic Dentistry",
+        "price": "$55.57",
+        "image_url": "https://i.ibb.co/kKhT8fK/services02.webp",
+        "details": "Cosmetic dentistry focuses on improving the appearance and aesthetics of your smile. Common cosmetic dental procedures include teeth whitening, dental bonding and veneers.\nA general dentist is a primary dental care provider. They offer preventative care, like teeth cleanings, and restorative dentistry treatments, such as dental fillings, crowns and bridges. Most dental treatments restore appearance as well as health and function. However, a cosmetic dentist focuses on beautifying your smile. They offer treatments aimed at improving the appearance of your teeth and gums."
+    },
+    {
+        "service_id": 4,
+        "rating": {
+            "number": 4.1,
+            "badge": "Excellent"
+        },
+        "total_view": 165,
+        "service_title": "Brace Implants",
+        "price": "$148.06",
+        "image_url": "https://i.ibb.co/w4fX05f/services03.webp",
+        "details": "Dental implants are designed to replace teeth that have been lost due to injury or decay. The implants consist of a titanium post, which the dentist inserts into the jaw to replace the missing tooth. He then attaches a prosthetic crown — the visible part of the tooth — which functions like a regular tooth.\nIn fact, dental implants also look and feel just like regular teeth. Over time, you may forget that it’s not one of your own. And because dental implants blend in so well with the rest of your teeth (and can be colored to match), no one will be able to tell that you have an implant.\nWhenever implant placement occurs, it is likely to take place in an outpatient setting. The procedure typically takes a few hours and is done by a dentist, periodontist or oral surgeon. Most of the time the area is numbed and the patient does not need to be sedated. A dental professional will give you specific instructions on how to prepare for the procedure, and on caring for the teeth afterward to avoid any possible complications."
+    },
+    {
+        "service_id": 5,
+        "rating": {
+            "number": 4.4,
+            "badge": "Excellent"
+        },
+        "total_view": 132,
+        "service_title": "Root Canals-RCT",
+        "price": "$25.90",
+        "image_url": "https://i.ibb.co/bPXHLv4/services04.webp",
+        "details": "We offer the following endodontic treatment; root canal therapy and retreatment of some previously treated root canals. In spite of what your family and friends may tell you endodontic treatment has come a very long way of the past years and now like a normal, routine filling appointment.\nRoot canal therapy is treatment for the pulp of your tooth once bacteria have reached the pulp causing it to become infected. Root canal therapy helps preserve your tooth as long as possible so that you do not have to have it removed. Often after having treatment your dentist will strongly recommend that you have a crown placed on the tooth.\nDuring your root canal appointment the dentist will start by giving you local anesthetic so that you will not feel any discomfort throughout the procedure. After the anesthetic has taken effect, your dentist will began by removing decay and making an access to the pulp chamber of the tooth. Once this opening has been made he/she will began to remove the unhealthy pulp and infection from the tooth by using different size and length files; the files will allow your dentist to shape the canals so that they can properly fill it later in the appointment. Before filling the canals the dentist will irrigate the canals to remove any debris that may have not came out with the files. After irrigating, the assistant will dry out the tooth so the sealer can adhere to the canal within the tooth for a proper seal so that bacteria and infection may not return. The canals are filled with a rubbery material called gutta percha."
+    },
+    {
+        "service_id": 6,
+        "rating": {
+            "number": 4.2,
+            "badge": "Excellent"
+        },
+        "total_view": 876,
+        "service_title": "Tooth Extraction",
+        "price": "$95.02",
+        "image_url": "https://i.ibb.co/BwGjCbx/services05.jpg",
+        "details": "In case your are missing a tooth, you can get a quality American implant for a reasonable price from the only provider of this American system in Estonia. The system is minimally-invasive, which mean almost no pain, no need for big operations, and less cost than other classical systems.\nAlthough permanent teeth were meant to last a lifetime, there are a number of reasons why tooth extraction may be needed. A very common reason involves a tooth that is too badly damaged, from trauma or decay, to be repaired."
+    }
+]

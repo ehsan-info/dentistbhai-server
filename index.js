@@ -43,11 +43,11 @@ async function run() {
             res.send(service);
         });
         app.get('/myReviews', async (req, res) => {
-            const decoded = req.decoded;
+            /* const decoded = req.decoded;
             console.log(decoded);
             if (decoded.email !== req.query.email) {
                 res.status(403).send({ message: 'Unauthorised Access' })
-            }
+            } */
             let query = {};
             if (req.query.email) {
                 query = {

@@ -21,7 +21,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         const serviceCollection = client.db('dentistBhai').collection('services');
-
+        const reviewCollection = client.db('dentistBhai').collection('reviews');
         app.get('/firstServices', async (req, res) => {
             const query = {};
             const cursor = serviceCollection.find(query).limit(3);
@@ -41,6 +41,27 @@ async function run() {
             const service = await serviceCollection.findOne(query);
             // console.log(service);
             res.send(service);
+        });
+        app.get('/myReviews', async (req, res) => {
+            const decoded = req.decoded;
+            console.log(decoded);
+            if (decoded.email !== req.query.email) {
+                res.status(403).send({ message: 'Unauthorised Access' })
+            }
+            let query = {};
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
+            const cursor = reviewCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews);
+        });
+        app.post('/review', async (req, res) => {
+            const review = req.body;
+            const result = await reviewCollection.insertOne(review);
+            res.send(result);
         });
     }
     finally {

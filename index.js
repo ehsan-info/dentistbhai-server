@@ -24,13 +24,19 @@ async function run() {
         const reviewCollection = client.db('dentistBhai').collection('reviews');
         app.get('/firstServices', async (req, res) => {
             const query = {};
-            const cursor = serviceCollection.find(query).limit(3);
+            const options = {
+                sort: { addTime: -1 }
+            };
+            const cursor = serviceCollection.find(query, options).limit(3);
             const services = await cursor.toArray();
             res.send(services);
         });
         app.get('/services', async (req, res) => {
             const query = {};
-            const cursor = serviceCollection.find(query);
+            const options = {
+                sort: { addTime: -1 }
+            };
+            const cursor = serviceCollection.find(query, options);
             const services = await cursor.toArray();
             res.send(services);
         });
@@ -54,7 +60,10 @@ async function run() {
                     email: req.query.email
                 }
             }
-            const cursor = reviewCollection.find(query);
+            const options = {
+                sort: { addTime: -1 }
+            };
+            const cursor = reviewCollection.find(query, options);
             const reviews = await cursor.toArray();
             res.send(reviews);
         });
